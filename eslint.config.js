@@ -1,6 +1,4 @@
-import js from "@eslint/js";
-import globals from "globals";
-import { defineConfig } from "eslint/config";
+import globals from 'globals';
 import pluginJs from '@eslint/js';
 import daStyle from 'eslint-config-dicodingacademy';
 
