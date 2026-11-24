@@ -1,5 +1,5 @@
 const createValidator = (source) => (schema) => (req, res, next) => {
-  const { error, value } = schema.validate(req[source], {
+  const { error, value } = schema.validate(req[source] ?? {}, {
     abortEarly: false,
     allowUnknown: false,
     stripUnknown: true,
